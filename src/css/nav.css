@@ -1,0 +1,62 @@
+.navigation {
+    position: relative;
+}
+
+.nav_item {
+    font-weight: 700;
+    font-size: 1.6rem;
+    width: 12rem;
+    display: flex;
+    user-select: none !important;
+    justify-content: center;
+}
+
+.mode {
+    display: inline-block;
+    position: fixed;
+    right: 2%;
+    top: 2.85rem;
+    transform: translateY(-50%);
+    z-index: 997;
+}
+
+.noti_switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: 700 !important;
+    border-radius: 25px;
+    user-select: none !important;
+    white-space: nowrap;
+    margin: 3px 0px;
+    transition: all .2s !important;
+    padding: 8px 12px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.noti_switch svg {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    font-weight: 400;
+    font-size: 2rem !important;
+    padding: 2px 2px 2px 2px;
+    transition: transform .3s ease-in-out !important;
+}
+
+.switch_mode:checked+.noti_switch svg {
+    transform: rotate(-360deg);
+    transition: transform .3s ease-in-out !important;
+    transition: transform .3s ease-in-out !important;
+}
+
+.switch_mode:checked+.noti_switch {
+    transition: all .2s !important;
+}
+
+.switch_mode {
+    display: block;
+}

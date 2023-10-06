@@ -1,0 +1,134 @@
+.contact-container {
+    min-height: 85.5vh !important;
+    padding: 0 0 5rem 0 !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+.contact-content {
+    max-width: 1063.5px;
+    margin: 0 auto 5rem auto;
+    padding: 3rem;
+}
+
+.contact-container h3 {
+    margin-top: 0 !important;
+    padding-top: 5rem;
+}
+
+.contact-container form * {
+    margin-bottom: 0 !important;
+    margin-top: 3rem !important;
+}
+
+.contact-container form .helper-text {
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    min-height: 0 !important;
+}
+
+.contact-container form div label {
+    font-size: 1.6rem !important;
+    transform: translateY(0px);
+}
+
+.contact-container form button {
+    float: right;
+}
+
+.select-wrapper .caret {
+    margin: 0 !important;
+}
+
+
+.contact-container input:not(.browser-default):focus:not([readonly])+label {
+    color: var(--color-label-contact) !important;
+}
+
+.contact-container input:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid var(--color-label-contact) !important;
+    box-shadow: 0 1px 0 0 var(--color-label-contact) !important;
+}
+
+
+.contact-container .materialize-textarea:focus:not([readonly])+label {
+    color: var(--color-label-contact) !important;
+}
+
+.contact-container .input-field .prefix.active {
+    color: var(--color-label-contact) !important;
+}
+
+.contact-container textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid var(--color-label-contact);
+    box-shadow: 0 1px 0 0 var(--color-label-contact);
+}
+
+.select-wrapper input.select-dropdown:focus {
+    border-bottom: 1px solid var(--color-label-contact) !important;
+}
+
+.select-wrapper input.select-dropdown {
+    margin-top: 5rem !important;
+}
+
+.toggler-wrapper {
+    display: block;
+    width: 45px;
+    height: 25px;
+    cursor: pointer;
+    position: relative;
+}
+
+.toggler-wrapper span {
+    margin-top: 0 !important;
+    width: 190px;
+    height: 100%;
+    left: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    position: absolute;
+}
+
+.toggler-wrapper input[type="checkbox"] {
+    display: none;
+}
+
+.toggler-wrapper input[type="checkbox"]:checked+.toggler-slider {
+    background: var(--background-toggle);
+}
+
+.toggler-wrapper .toggler-slider {
+    background-color: #ccc;
+    position: absolute;
+    border-radius: 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    margin-top: 0 !important;
+}
+
+.toggler-wrapper .toggler-knob {
+    position: absolute;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    margin-top: 0 !important;
+}
+
+.toggler-wrapper.style-4 input[type="checkbox"]:checked+.toggler-slider .toggler-knob {
+    left: calc(100% - 19px - 3px);
+}
+
+.toggler-wrapper.style-4 .toggler-knob {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+}

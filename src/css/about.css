@@ -1,0 +1,11 @@
+.about-container {
+    height: 85.2vh !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+.about-container .collapsible-header .material-icons {
+    display: flex;
+    align-items: center;
+    font-size: 2.3rem
+}

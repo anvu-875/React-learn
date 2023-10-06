@@ -1,0 +1,16 @@
+.new-container {
+    min-height: 85.2vh !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+.carousel {
+    height: 700px !important;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel .carousel-item {
+    height: auto !important;
+    width: 300px !important;
+}
